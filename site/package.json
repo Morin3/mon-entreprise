@@ -65,7 +65,7 @@
 		"algoliasearch": "^4.20.0",
 		"date-fns": "^3.6.0",
 		"deep-eql": "^5.0.1",
-		"effect": "^3.0.0",
+		"effect": "^3.22.1",
 		"exoneration-covid": "workspace:^",
 		"focus-trap-react": "^10.2.1",
 		"fuse.js": "^6.6.2",

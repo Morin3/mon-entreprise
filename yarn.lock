@@ -10529,6 +10529,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@standard-schema/spec@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "@standard-schema/spec@npm:1.1.0"
+  checksum: 6245ebef5e698bb04752a22e996a7cc40406a404d9f68a9d4e1a7a10f2422da287247508e7b495a2f32bb38f3d57b4daf2c9ab4bf22d9bca13e20a3dc5ec575e
+  languageName: node
+  linkType: hard
+
 "@storybook/addon-a11y@npm:^7.4.2":
   version: 7.4.2
   resolution: "@storybook/addon-a11y@npm:7.4.2"
@@ -17589,10 +17596,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"effect@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "effect@npm:3.0.1"
-  checksum: e2284b2789fc73095653ff1a44628cf57a4dd11de61ed458c16807f83132caa91abf3a6f8238a6021efdbd3c8805d696c859d5daecbe7da092fab0d58aaa6ab8
+"effect@npm:^3.22.1":
+  version: 3.22.1
+  resolution: "effect@npm:3.22.1"
+  dependencies:
+    "@standard-schema/spec": ^1.0.0
+    fast-check: ^3.23.1
+  checksum: 7db6ae9e6338ce829f1535b9be39e932d0c057a03b34446124a50118f96f37570b553877887b83adb3b689efa38315f0eb730424a9b353764e50dd5063433748
   languageName: node
   linkType: hard
 
@@ -19312,6 +19322,15 @@ __metadata:
   version: 1.4.1
   resolution: "extsprintf@npm:1.4.1"
   checksum: a2f29b241914a8d2bad64363de684821b6b1609d06ae68d5b539e4de6b28659715b5bea94a7265201603713b7027d35399d10b0548f09071c5513e65e8323d33
+  languageName: node
+  linkType: hard
+
+"fast-check@npm:^3.23.1":
+  version: 3.23.2
+  resolution: "fast-check@npm:3.23.2"
+  dependencies:
+    pure-rand: ^6.1.0
+  checksum: b815bd1a2bda33b8e1927a732368f94c3919d5c3b626065479e2389739dfbc6de885fdf48b7a576505edff4f8931798dc737c7bc7039a58b3412746f0d2e9b86
   languageName: node
   linkType: hard
 
@@ -27010,6 +27029,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pure-rand@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "pure-rand@npm:6.1.0"
+  checksum: 8d53bc02bed99eca0b65b505090152ee7e9bd67dd74f8ff32ba1c883b87234067c5bf68d2614759fb217d82594d7a92919e6df80f97885e7b12b42af4bd3316a
+  languageName: node
+  linkType: hard
+
 "qs@npm:6.11.0, qs@npm:^6.10.0, qs@npm:^6.11.0, qs@npm:^6.5.2":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
@@ -29259,7 +29285,7 @@ __metadata:
     date-fns: ^3.6.0
     deep-eql: ^5.0.1
     dotenv: ^16.3.1
-    effect: ^3.0.0
+    effect: ^3.22.1
     eslint-plugin-testing-library: ^6.2.0
     exoneration-covid: "workspace:^"
     focus-trap-react: ^10.2.1
